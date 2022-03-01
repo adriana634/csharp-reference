@@ -4,6 +4,8 @@
 
 #### Integral numeric types
 
+The integral numeric types represent integer numbers. All integral numeric types are value types. They are also simple types and can be initialized with literals. All integral numeric types support arithmetic, bitwise logical, comparison, and equality operators.
+
 | C# type/keyword | Range | Size | .NET type |
 | --- | --- | --- | --- |
 | sbyte | -128 to 127 | Signed 8-bit integer | System.SByte |
