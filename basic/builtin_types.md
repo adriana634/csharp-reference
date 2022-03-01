@@ -22,7 +22,22 @@ The integral numeric types represent integer numbers. All integral numeric types
 
 ### Reference types
 
+There are two kinds of types in C#: reference types and value types. Variables of reference types store references to their data (objects), while variables of value types directly contain their data. With reference types, two variables can reference the same object; therefore, operations on one variable can affect the object referenced by the other variable.
+
+The following keywords are used to declare reference types:
+* class
+* interface
+* delegate
+* record
+
+C# also provides the following built-in reference types:
+* dynamic
+* object
+* string
+
 ## Resources
 * https://www.netmentor.es/entrada/variables-y-operadores
 * https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types
+* https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+* https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types
 
